@@ -1,10 +1,18 @@
+import usePositionService from '../../hooks/usePositionService';
+import PositionBox from './components/PositionBox/PositionBox';
 import './Main.css'
 
 const Main = () => {
 
+  const { position } = usePositionService();
+
   return (
 
-    <div>main</div>
+    <>
+
+      <PositionBox position={position} />
+
+    </>
 
   )
 
