@@ -1,0 +1,12 @@
+.header {
+  grid-area: header;
+  display: flex;
+  align-items: center;
+}
+
+.header .logo .line {
+  width: 100%;
+  display: block;
+  border: 2px solid #20c997;
+  border-radius: 10px;
+}
