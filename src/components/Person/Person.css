@@ -1,0 +1,17 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item .item-craft {
+  text-align: center;
+  background-color: #1db789;
+  color: #ffffffdd;
+  font-size: 14px;
+  font-weight: 600;
+  width: 90px;
+  padding: 2px 12px;
+  border: 2px solid #00000029;
+  border-radius: 10px;
+}
