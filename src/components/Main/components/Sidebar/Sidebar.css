@@ -1,0 +1,19 @@
+.sidebar {
+  grid-area: sidebar;
+  background-color: #1c1c1c;
+  border: 2px solid #00000029;
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  overflow-y: auto;
+  flex-direction: column;
+  padding: 15px;
+  justify-content: center;
+}
+
+.sidebar .people-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+}
