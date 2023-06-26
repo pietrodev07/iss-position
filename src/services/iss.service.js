@@ -1,5 +1,5 @@
 import { getService } from "./http.service";
-import { ISS_POSITION_URL } from "./url";
+import { ISS_POSITION_URL, PEOPLE_SPACE_URL } from "./url";
 
 const getPositionService = async () => {
 
@@ -13,4 +13,14 @@ const getPositionService = async () => {
 
 }
 
-export { getPositionService };
+const getPeopleService = async () => {
+
+  const result = await getService(PEOPLE_SPACE_URL);
+
+  const { number, people } = result;
+
+  return { number, people };
+
+}
+
+export { getPositionService, getPeopleService };
