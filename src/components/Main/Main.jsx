@@ -1,11 +1,12 @@
 import usePositionService from '../../hooks/usePositionService';
+import TimestampBox from './components/TimestampBox/TimestampBox';
 import PositionBox from './components/PositionBox/PositionBox';
 import Map from './components/Map/Map';
 import './Main.css'
 
 const Main = () => {
 
-  const { position, setMap } = usePositionService();
+  const { position, setMap, timestamp } = usePositionService();
 
   return (
 
@@ -14,6 +15,8 @@ const Main = () => {
       <PositionBox position={position} />
 
       <Map position={position} setMap={setMap} />
+
+      <TimestampBox timestamp={timestamp} />
 
     </>
 

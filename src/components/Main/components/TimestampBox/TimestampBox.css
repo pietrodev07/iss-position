@@ -1,0 +1,10 @@
+.timestamp-box {
+  grid-area: timestamp-box;
+  background-color: #1c1c1c;
+  border: 2px solid #00000029;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 20px;
+}
