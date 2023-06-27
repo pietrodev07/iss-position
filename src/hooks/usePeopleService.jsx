@@ -3,7 +3,7 @@ import { getPeopleService } from "../services/iss.service";
 
 const usePeopleService = () => {
 
-  const [people, setPeople] = useState({});
+  const [people, setPeople] = useState([]);
 
   const getPeople = async () => {
 

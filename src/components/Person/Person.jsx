@@ -1,6 +1,6 @@
 import "./Person.css"
 
-const Person = ({ name, craft }) => {
+const Person = ({ name, agency }) => {
 
   return (
 
@@ -8,7 +8,7 @@ const Person = ({ name, craft }) => {
 
       <span>{name}</span>
 
-      <span className="item-craft">{craft}</span>
+      <span className="item-agency">{agency}</span>
 
     </div>
 

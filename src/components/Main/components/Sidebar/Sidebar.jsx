@@ -16,9 +16,9 @@ const Sidebar = () => {
 
         {people.people && people.people.map((person, index) => {
 
-          const { name, craft } = person;
+          const { name, agency } = person;
 
-          return <Person key={index} name={name} craft={craft} />
+          return <Person key={index} name={name} agency={agency} />
 
         })}
 

@@ -5,9 +5,7 @@ const getPositionService = async () => {
 
   const result = await getService(ISS_POSITION_URL);
 
-  const { latitude, longitude } = result.iss_position;
-
-  const { timestamp } = result;
+  const { latitude, longitude, timestamp } = result;
 
   return { latitude, longitude, timestamp };
 

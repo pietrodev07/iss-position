@@ -4,14 +4,14 @@
   align-items: center;
 }
 
-.item .item-craft {
+.item .item-agency {
   text-align: center;
   background-color: #1db789;
   color: #ffffffdd;
   font-size: 14px;
   font-weight: 600;
   width: 90px;
-  padding: 2px 12px;
+  padding: 2px;
   border: 2px solid #00000029;
   border-radius: 10px;
 }
