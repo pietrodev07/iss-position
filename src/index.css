@@ -33,8 +33,8 @@ body {
 
   .container {
     width: 100%;
-    height: 170svh;
-    padding: 25px;
+    height: 180svh;
+    padding: 20px;
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 0.5fr 2.5fr 0.5fr 4.2fr 0.5fr;
     grid-template-areas:

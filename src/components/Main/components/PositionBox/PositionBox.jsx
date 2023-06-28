@@ -6,7 +6,21 @@ const PositionBox = ({ position }) => {
 
     <div className="position-box">
 
-      <p>Current position: {position[0]}, {position[1]}</p>
+      <div className="latitude">
+
+        <h4>Latitude: </h4>
+
+        <span>{position[0]}</span>
+
+      </div>
+
+      <div className="longitude">
+
+        <h4>Longitude: </h4>
+
+        <span>{position[1]}</span>
+
+      </div>
 
     </div>
 

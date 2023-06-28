@@ -8,3 +8,12 @@
   gap: 20px;
   padding: 10px 20px;
 }
+
+@media (max-width: 870px) {
+
+  .timestamp-box {
+    flex-direction: column;
+    align-items: start;
+  }
+
+}
